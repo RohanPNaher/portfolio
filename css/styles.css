@@ -357,6 +357,33 @@ footer {
     }
 }
 
+.lead-social {
+    text-align: center
+}
+
+.lead-social ul {
+    margin: 10px 0 0 0;
+    padding: 0
+}
+
+.lead-social li {
+    display: inline-block;
+    font-size: 2.8em;
+    list-style: none;
+    padding: 20px;
+}
+
+.lead-social a, p {
+    display: block;
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+}
+
+.lead-social a:hover {
+    color: #8c5000
+}
+
 #about {
     padding: 75px 15px;
     border-bottom: 1px solid #dcd9d9
@@ -546,7 +573,12 @@ footer {
 }
 
 .project-image {
-    float: left
+    float: left;
+}
+
+.project-image > img {
+    /* width: 500px;
+    height: 300px; */
 }
 
 .project-info {
